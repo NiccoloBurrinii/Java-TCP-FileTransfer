@@ -2,14 +2,14 @@
 
 Un percorso evolutivo in tre step che mostra come sviluppare un sistema di trasferimento file binari (PNG) via TCP, passando da un prototipo single-thread a un server multi-thread professionale.
 
-## 📋 Panoramica
+## Panoramica
 Il progetto implementa un sistema di download file Client-Server. L'obiettivo è dimostrare la gestione dei flussi di byte (byte streams) attraverso le Socket di Java e l'ottimizzazione delle performance tramite il multithreading.
 
 
 
 ---
 
-## 🚀 Le 3 Fasi dello Sviluppo
+## Le 3 Fasi dello Sviluppo
 
 ### STEP #1: Prototipo Single-Thread
 La base del sistema. Un server semplice che accetta una connessione, invia un file predefinito e si chiude.
